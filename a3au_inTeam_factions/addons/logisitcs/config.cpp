@@ -15,5 +15,5 @@ class CfgPatches {
 };
 
 class A3A {
-    #include "cfgLogistics.hpp"
+    #include "CfgLogistics.hpp"
 };
