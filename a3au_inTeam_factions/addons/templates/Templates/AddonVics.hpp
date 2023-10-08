@@ -17,7 +17,7 @@ class AddonVics
         path = QPATHTOFOLDER(AddonVics);
         requiredAddons[] = {"rds_A2_Civilians"};
         files[] = { {"Civ", "inTeam_rds_Civ_temperate.sqf"} };
-        Nodes[] = {"inTeam_Nodes.sqf"};
+        // Nodes[] = {"inTeam_Nodes.sqf"};
         displayName = "RDS Car pack filtered by [inTeam]Westalgie (Temperate)";
         description = "A car pack based on RDS with some minor tweaks by [inTeam]Westalgie (Temperate)";
         loadedMessage = "RDS filtered by [inTeam]Westalgie, loaded, civilian car pool expanded (Temperate)";
@@ -28,7 +28,7 @@ class AddonVics
         path = QPATHTOFOLDER(AddonVics);
         requiredAddons[] = {"rds_A2_Civilians"};
         files[] = { {"Civ", "inTeam_rds_Civ_arid.sqf"} };
-        Nodes[] = {"inTeam_Nodes.sqf"};
+        // Nodes[] = {"inTeam_Nodes.sqf"};
         displayName = "RDS Car pack filtered by [inTeam]Westalgie (Arid)";
         description = "A car pack based on RDS with some minor tweaks by [inTeam]Westalgie (Arid)";
         loadedMessage = "RDS filtered by [inTeam]Westalgie, loaded, civilian car pool expanded (Arid)";
