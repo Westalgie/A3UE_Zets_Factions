@@ -611,7 +611,7 @@ _militiaLoadoutData set ["machineGuns", [
 _militiaLoadoutData set ["marksmanRifles", [
 ["rhs_weap_svdp", "", "", "rhs_acc_pso1m2", ["rhs_10Rnd_762x54mmR_7N1"], [], ""]
 ]];
-_militiaLoadoutData set ["sniperRifles", ["rhs_weap_m38"]];
+_militiaLoadoutData set ["sniperRifles", [["rhs_weap_svdp", "", "", "rhs_acc_pso1m2", ["rhs_10Rnd_762x54mmR_7N1"], [], ""]]];
 _militiaLoadoutData set ["sidearms", ["rhs_weap_makarov_pm"]];
 _militiaLoadoutData set ["antiInfantryGrenades", ["rhs_mag_rgd5", "rhs_mag_f1"]];
 
