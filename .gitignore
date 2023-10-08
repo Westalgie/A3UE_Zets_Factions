@@ -1,0 +1,11 @@
+.vscode/
+.github/
+build
+Tools
+*.biprivatekey
+*.log
+*.pbo
+*.pbo.bak
+*.bat
+*ps1
+AntistasiBuilder.cfg
