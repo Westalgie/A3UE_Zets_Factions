@@ -121,7 +121,7 @@ private _initialRebelEquipment = [
     "rhsgref_mag_rkg3em",
     ["IEDUrbanSmall_Remote_Mag", 10], ["IEDLandSmall_Remote_Mag", 10], ["IEDUrbanBig_Remote_Mag", 3], ["IEDLandBig_Remote_Mag", 3],
     "B_TacticalPack_oli", "rhs_d6_Parachute_backpack",
-    "rhssaf_Zrak_rd7j",
+    "rhssaf_zrak_rd7j",
     "rhs_weap_rsp30_white","rhs_mag_rsp30_white",
     "rhs_weap_rsp30_green","rhs_mag_rsp30_green",
     "rhs_weap_rsp30_red", "rhs_mag_rsp30_red",
