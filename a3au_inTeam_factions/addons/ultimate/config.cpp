@@ -19,7 +19,6 @@ class CfgPatches
 class A3U
 {
     #include "config\cfgForbiddenItems.hpp"
-    #include "config\trader\cfgTraderMods.hpp"
 };
 
 class Extended_PreInit_EventHandlers 
