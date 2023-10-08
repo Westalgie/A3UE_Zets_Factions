@@ -208,3 +208,5 @@ class rhsusf_8Rnd_Slug: forbidden_unlimited_base {};
 // ace mine detector
 class ACE_VMM3: forbidden_unlimited_base {};
 class ACE_VMH3: forbidden_unlimited_base {};
+
+class rhsgref_K98k_acc_sighthood_add: forbidden_unlimited_base {};
