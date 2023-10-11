@@ -4,8 +4,8 @@ _addon set ["vehiclesCivCar", [
 	,"RDS_Gaz24_Civ_02", 1.0
 	,"RDS_Gaz24_Civ_01", 1.0
 	,"RDS_Gaz24_Civ_03", 1.0
-    ,"RDS_Golf4_Civ_01", 1.0
-    ,"RDS_Octavia_Civ_01", 1.0
+    // ,"RDS_Golf4_Civ_01", 1.0
+    // ,"RDS_Octavia_Civ_01", 1.0
 	// ,"RDS_S1203_Civ_01", 0.5 //overall bad
 	,"RDS_JAWA353_Civ_01", 0.2
     ,"RDS_tt650_Civ_01", 0.2

@@ -10,5 +10,9 @@ class forbiddenItems
         unlimited = 0;
     };
 
-    #include "cfgForbiddenItemsInTeam.hpp"
+    #include "cfgFInTeamACE.hpp"
+    // #include "cfgFInTeamPMC.hpp"
+    // #include "cfgFInTeamRDS.hpp"
+    #include "cfgFInTeamRHS.hpp"
+    #include "cfgFInTeam3CB.hpp"
 };
