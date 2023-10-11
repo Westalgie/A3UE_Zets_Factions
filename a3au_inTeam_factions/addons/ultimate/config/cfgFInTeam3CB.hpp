@@ -580,6 +580,46 @@ class uk3cb_1rnd_riflegrenade_mas_base: forbidden_limited_base {};
 class uk3cb_1rnd_riflegrenade_base: forbidden_limited_base {};
 class uk3cb_1rnd_riflegrenade_m31_base: forbidden_limited_base {};
 class uk3cb_1rnd_riflegrenade_energa_base: forbidden_limited_base {};
+
 //launchers
 class UK3CB_Blowpipe: forbidden_limited_base {};
 class UK3CB_Blowpipe_Round: forbidden_limited_base {};
+
+//backpacks
+class UK3CB_B_Invisible: forbidden_limited_base {};
+
+//attachments
+class uk3cb_optic_accupoint_g3: forbidden_limited_base {};
+class uk3cb_optic_PVS4_G3: forbidden_limited_base {};
+class uk3cb_optic_PVS4_M14: forbidden_limited_base {};
+class UK3CB_Optic_G36Dualoptic15x: forbidden_limited_base {};
+class UK3CB_Optic_G36Dualoptic15x2d: forbidden_limited_base {};
+class UK3CB_Optic_G36dualoptic35x: forbidden_limited_base {};
+class UK3CB_Optic_G36dualoptic35x2d: forbidden_limited_base {};
+class UK3CB_Optic_G36Export15x: forbidden_limited_base {};
+class UK3CB_Optic_G36Export15x2d: forbidden_limited_base {};
+class UK3CB_Optic_G36Export35x: forbidden_limited_base {};
+class UK3CB_Optic_G36Export35x2d: forbidden_limited_base {};
+class uk3cb_optic_STANAGZF_G3: forbidden_limited_base {};
+class uk3cb_optic_STANAGZF2D_G3: forbidden_limited_base {};
+class uk3cb_optic_Kern: forbidden_limited_base {};
+class uk3cb_optic_Kern2d: forbidden_limited_base {};
+class uk3cb_optic_artel_m14: forbidden_limited_base {};
+class uk3cb_optic_no32: forbidden_limited_base {};
+class uk3cb_optic_no32_vintage: forbidden_limited_base {};
+class uk3cb_optic_no32_distressed: forbidden_limited_base {};
+class uk3cb_optic_sro: forbidden_limited_base {};
+class uk3cb_optic_SUIT_FNFAL: forbidden_limited_base {};
+class uk3cb_optic_ZFSG1: forbidden_limited_base {};
+
+class uk3cb_acc_surefiregrip: forbidden_limited_base {};
+class uk3cb_muzzle_sks_bayonet: forbidden_limited_base {};
+class uk3cb_muzzle_snds_m42000aug: forbidden_limited_base {};
+class uk3cb_muzzle_snds_M14: forbidden_limited_base {};
+class uk3cb_muzzle_snds_HK33: forbidden_limited_base {};
+class uk3cb_muzzle_snds_g3: forbidden_limited_base {};
+class uk3cb_muzzle_snds_a6aug: forbidden_limited_base {};
+class uk3cb_muzzle_snds_mp5: forbidden_limited_base {};
+class uk3cb_muzzle_snds_mp510: forbidden_limited_base {};
+
+class UK3CB_Bipod_G36: forbidden_limited_base {};

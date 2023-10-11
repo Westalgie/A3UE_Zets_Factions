@@ -16,6 +16,8 @@ class CfgPatches
     };
 };
 
+#include "CfgFunctions.hpp"
+
 class A3U
 {
     #include "config\cfgForbiddenItems.hpp"
