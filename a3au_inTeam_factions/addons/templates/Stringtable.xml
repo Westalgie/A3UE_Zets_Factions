@@ -7,10 +7,10 @@
         <German>NRRT</German>
     </Key>
     <Key ID="STR_InTeam_NGTR_desription">
-        <Original>National Government of Takistan Republic. \nUnofficially supported by US government islamist radicals and fundmaentalists \nwho recently seized power in the country.</Original>
-        <English>National Government of Takistan Republic. \nUnofficially supported by US government islamist radicals and fundmaentalists \nwho recently seized power in the country.</English>
-        <Russian>Национально Правительство Республики Такистан. \nНеофициально поддерживаемые американским правителсьтвом исламские радикалисты \nи фундаменталисты, недавно захватившие власть в стране.</Russian>
-        <German>Nationale Regierung der Republik Takistan. \nInoffiziell unterstützt von islamistischen Radikalen und Fundamentalisten der US-Regierung, \ndie kürzlich die Macht im Land übernommen haben.</German>
+        <Original>National Government of Takistan Republic. \nUnofficially supported by US government islamist radicals and fundmaentalists who recently seized power in the country.</Original>
+        <English>National Government of Takistan Republic. \nUnofficially supported by US government islamist radicals and fundmaentalists who recently seized power in the country.</English>
+        <Russian>Национально Правительство Республики Такистан. \nНеофициально поддерживаемые американским правителсьтвом исламские радикалисты и фундаменталисты, недавно захватившие власть в стране.</Russian>
+        <German>Nationale Regierung der Republik Takistan. \nInoffiziell unterstützt von islamistischen Radikalen und Fundamentalisten der US-Regierung, die kürzlich die Macht im Land übernommen haben.</German>
     </Key>
     <Key ID="STR_InTeam_PLAT_name">
         <Original>PLAT</Original>
@@ -19,10 +19,10 @@
         <German>VBAT</German>
     </Key>
     <Key ID="STR_InTeam_PLAT_description">
-        <Original>People's Liberation Army of Takistan. \nOfficially recognized and supported by Russian government \nthis young republic will try to seize dominance in the region.</Original>
-        <English>People's Liberation Army of Takistan. \nOfficially recognized and supported by Russian government \nthis young republic will try to seize dominance in the region.</English>
-        <Russian>Народно-освободительная армия Такистана. \nОфициально признанная и поддержимаемая российским правительством молодая республика, \nкоторая попытается установить контроль в регионе.</Russian>
-        <German>Volksbefreiungsarmee von Takistan. \nDiese junge Republik, die von der russischen Regierung offiziell anerkannt und unterstützt wird, \nwird versuchen, die Vorherrschaft in der Region an sich zu reißen.</German>
+        <Original>People's Liberation Army of Takistan. \nOfficially recognized and supported by Russian government this young republic will try to seize dominance in the region.</Original>
+        <English>People's Liberation Army of Takistan. \nOfficially recognized and supported by Russian government this young republic will try to seize dominance in the region.</English>
+        <Russian>Народно-освободительная армия Такистана. \nОфициально признанная и поддержимаемая российским правительством молодая республика, которая попытается установить контроль в регионе.</Russian>
+        <German>Volksbefreiungsarmee von Takistan. \nDiese junge Republik, die von der russischen Regierung offiziell anerkannt und unterstützt wird, wird versuchen, die Vorherrschaft in der Region an sich zu reißen.</German>
     </Key>
     <Key ID="STR_InTeam_TCM_name">
         <Original>TCM</Original>
