@@ -4,7 +4,7 @@ private _hasLawsOfWar = "orange" in A3A_enabledDLC;
 //   Rebel Information   //
 ///////////////////////////
 
-["name", "TKM"] call _fnc_saveToTemplate;
+["name", localize "STR_InTeam_TCM_name"] call _fnc_saveToTemplate;
 
 ["flag", "Flag_TKM_B"] call _fnc_saveToTemplate;
 ["flagTexture", "x\a3au_inTeam_factions\addons\templates\data\InTeam_flag_TCM_co.paa"] call _fnc_saveToTemplate;
@@ -101,6 +101,7 @@ private _hasLawsOfWar = "orange" in A3A_enabledDLC;
     ["UK3CB_TKM_I_BRDM2", 2500, "CAR", {true}],
     ["UK3CB_TKM_I_BRDM2_ATGM", 3500, "CAR", {tierWar > 3}],
     ["UK3CB_TKM_I_UAZ_AGS30", 2500, "CAR", {tierWar > 2}],
+    ["UK3CB_TKM_I_Hilux_Rocket_Arty", 4500, "CAR", {tierWar > 4 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count milbases > 0}}],
 
     ["UK3CB_TKM_I_MTLB_PKT", 2000, "APC", {true}],
     ["UK3CB_TKM_I_BTR40", 2250, "APC", {true}],

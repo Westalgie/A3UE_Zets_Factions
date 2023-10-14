@@ -2,7 +2,7 @@
 //   Side Information   //
 //////////////////////////
 
-["name", "PLAT"] call _fnc_saveToTemplate;
+["name", localize "STR_InTeam_PLAT_name"] call _fnc_saveToTemplate;
 ["spawnMarkerName", format [localize "STR_supportcorridor", localize "STR_InTeam_PLAT_name"]] call _fnc_saveToTemplate;
 
 ["flag", "Flag_CCM_O"] call _fnc_saveToTemplate;

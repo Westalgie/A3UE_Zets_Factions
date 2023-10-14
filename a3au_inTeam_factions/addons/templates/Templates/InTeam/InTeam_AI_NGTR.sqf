@@ -2,7 +2,7 @@
 //   Side Information   //
 //////////////////////////
 
-["name", "NGTR"] call _fnc_saveToTemplate;
+["name", localize "STR_InTeam_NGTR_name"] call _fnc_saveToTemplate;
 ["spawnMarkerName", format [localize "STR_supportcorridor", localize "STR_InTeam_NGTR_name"]] call _fnc_saveToTemplate;
 
 ["flag", "Flag_TKA"] call _fnc_saveToTemplate;
