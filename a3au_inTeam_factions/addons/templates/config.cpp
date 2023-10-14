@@ -27,21 +27,19 @@ class cfgMarkerClasses
 };
 
 class cfgMarkers {
-	class flag_Russia;
+	class flag_NATO;
 
-	class flag_Wagner_PMC : flag_Russia {
-		name="Wagner PMC Flag";
-		icon=QPATHTOFOLDER(data\inTeam_wagner_pmc_flag_map_co.paa);
-		texture=QPATHTOFOLDER(data\inTeam_wagner_pmc_flag_map_co.paa);
-		color[]={1,1,1,1};
+	class InTeam_flag_PLAT : flag_NATO {
+		name="PLAT";
+		icon=QPATHTOFOLDER(data\InTeam_marker_PLAT_co.paa);
+		texture=QPATHTOFOLDER(data\InTeam_marker_PLAT_co.paa);
 		markerClass="a3au_inTeam_factions_marker_flags";
 	};
     
-    class flag_UAF : flag_Russia {
-		name="UAF Flag";
-		icon=QPATHTOFOLDER(data\inTeam_uaf_flag_map_co.paa);
-		texture=QPATHTOFOLDER(data\inTeam_uaf_flag_map_co.paa);
-		color[]={1,1,1,1};
+    class InTeam_flag_TCM : flag_NATO {
+		name="TCM";
+		icon=QPATHTOFOLDER(data\InTeam_marker_TCM_co.paa);
+		texture=QPATHTOFOLDER(data\InTeam_marker_TCM_co.paa);
 		markerClass="a3au_inTeam_factions_marker_flags";
 	};
 };
