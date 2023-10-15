@@ -7,6 +7,9 @@ class CfgFunctions
 			class fillLootCrate {
 				file = QPATHTOFOLDER(functions\Ammunitions\fn_fillLootCrate.sqf)
 			};
+			class loot {
+				file = QPATHTOFOLDER(functions\Ammunitions\fn_loot.sqf)
+			};
 		};
 		class Inventory
 		{

@@ -32,14 +32,16 @@ class Templates {
         description = $STR_InTeam_PLAT_description;
     };
 
-    // class inTeam_Civ : inTeam_Base
-    // {
-    //     requiredAddons[] = {"rds_A2_Civilians"};
-    //     side = "Civ";
-    //     flagTexture = "a3\data_f\flags\flag_fia_co.paa";
-    //     name = "inTeam";
-    //     file = "inTeam_Civ";
-    // };
+    class InTeam_Civ : inTeam_Base
+    {
+        side = "Civ";
+        flagTexture = "\UK3CB_Factions\addons\UK3CB_Factions_TKA\Flag\tka_flag_co.paa";
+        name = $STR_InTeam_Civ_name;
+        file = "InTeam_Civ";
+        climate[] = {"arid"};
+        maps[] = {"takistan"};
+        description = $STR_InTeam_Civ_description;
+    };
 
     class InTeam_TCM : InTeam_Base
     {

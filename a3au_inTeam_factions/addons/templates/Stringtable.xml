@@ -36,4 +36,16 @@
         <Russian>Коммунистическое ополчение Такистана. \nПролетарии всех стран, соединяйтесь!</Russian>
         <German>Kommunistische Miliz von Takistan. \nProletarier aller Länder, vereinigt Euch!</German>
     </Key>
+    <Key ID="STR_InTeam_Civ_name">
+        <Original>Takistan</Original>
+        <English>Takistan</English>
+        <Russian>Такистан</Russian>
+        <German>Takistan</German>
+    </Key>
+    <Key ID="STR_InTeam_Civ_description">
+        <Original>Takistan civilians</Original>
+        <English>Takistan civilians</English>
+        <Russian>Такистанские гражданские</Russian>
+        <German>Zivilisten aus Takistan</German>
+    </Key>
 </Project>

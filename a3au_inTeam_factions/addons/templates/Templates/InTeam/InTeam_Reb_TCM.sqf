@@ -159,34 +159,42 @@ _initialRebelEquipment append ["Chemlight_blue","Chemlight_green","Chemlight_red
 ["initialRebelEquipment", _initialRebelEquipment] call _fnc_saveToTemplate;
 
 private _rebUniforms = [
-    "UK3CB_ADE_I_U_02_J",
-    "UK3CB_ADM_I_U_Tshirt_01_WDL_03",
+    "UK3CB_ADE_O_U_02_C",
+    "UK3CB_ADE_O_U_02_D",
+    "UK3CB_ADE_O_U_02_K",
+    "UK3CB_ADE_O_U_02_B",
+    "UK3CB_ADE_O_U_02_H",
+    "UK3CB_ADE_O_U_02_I",
+    "UK3CB_ADE_O_U_02_J",
+    "UK3CB_ADE_O_U_02_E",
+    "UK3CB_ADE_O_U_02_G",
+    "UK3CB_ADE_O_U_02",
+    "UK3CB_ADE_O_U_02_F",
     "UK3CB_ADM_B_U_Tshirt_01_WDL",
-    "UK3CB_TKM_I_U_01",
-    "UK3CB_TKM_I_U_01_B",
-    "UK3CB_TKM_I_U_01_C",
-    "UK3CB_TKM_I_U_03",
-    "UK3CB_TKM_I_U_03_B",
-    "UK3CB_TKM_I_U_03_C",
-    "UK3CB_TKM_I_U_04",
-    "UK3CB_TKM_I_U_04_B",
-    "UK3CB_TKM_I_U_04_C",
-    "UK3CB_TKM_I_U_05",
-    "UK3CB_TKM_I_U_05_B",
-    "UK3CB_TKM_I_U_05_C",
-    "UK3CB_TKM_I_U_06",
-    "UK3CB_TKM_I_U_06_B",
-    "UK3CB_TKM_I_U_06_C"
+    "UK3CB_ADM_B_U_Tshirt_01_DPM",
+    "UK3CB_ADM_B_U_Tshirt_01_WDL_03",
+    "UK3CB_ADM_B_U_Tshirt_01_WDL_02",
+    "UK3CB_ADM_B_U_Tshirt_01_TCC"
 ];
 
 ["uniforms", _rebUniforms] call _fnc_saveToTemplate;
 
 ["headgear", [
-    "UK3CB_TKC_H_Turban_01_1",
-    "UK3CB_TKC_H_Turban_02_1",
-    "UK3CB_TKC_H_Turban_06_1",
-    "UK3CB_TKC_H_Turban_04_1",
-    "UK3CB_TKC_H_Turban_05_1"
+    "UK3CB_CHC_C_H_Can_Cap",
+    "H_Cap_red",
+    "H_Cap_tan",
+    "H_Cap_oli",
+    "H_Booniehat_oli",
+    "H_Booniehat_tan",
+    "H_Booniehat_khk",
+    "UK3CB_H_Turban_Facewrap_01_Red",
+    "UK3CB_H_Turban_Facewrap_02_Red",
+    "UK3CB_H_Turban_Facewrap_03_Red",
+    "UK3CB_H_Turban_Neckwrap_01_Red",
+    "UK3CB_H_Turban_Neckwrap_02_Red",
+    "UK3CB_H_Turban_Neckwrap_03_Red",
+    "UK3CB_H_Shemag_red_02",
+    "UK3CB_H_Shemag_red"
 ]] call _fnc_saveToTemplate;
 
 /////////////////////
@@ -208,9 +216,9 @@ _loadoutData set ["binoculars", ["Binocular"]];
 
 _loadoutData set ["uniforms", _rebUniforms];
 
-_loadoutData set ["glasses", ["G_Shades_Black", "G_Shades_Blue", "G_Shades_Green", "G_Shades_Red", "G_Aviator", "G_Spectacles", "G_Spectacles_Tinted", "G_Sport_BlackWhite", "G_Sport_Blackyellow", "G_Sport_Greenblack", "G_Sport_Checkered", "G_Sport_Red", "G_Squares", "G_Squares_Tinted"]];
-_loadoutData set ["goggles", ["G_Lowprofile"]];
-_loadoutData set ["facemask", ["rhs_scarf", "UK3CB_G_Balaclava_CHD", "G_Bandanna_blk", "G_Bandanna_oli", "G_Bandanna_khk", "G_Bandanna_tan", "G_Bandanna_beast", "G_Bandanna_shades", "G_Bandanna_sport", "G_Bandanna_aviator"]];
+_loadoutData set ["glasses", ["G_Aviator", "UK3CB_G_Ballistic_Black", "UK3CB_G_Tactical_Black", "UK3CB_G_Tactical_Clear"]];
+_loadoutData set ["goggles", ["UK3CB_G_Tactical_Gloves_Green", "UK3CB_G_Tactical_Gloves_Black", "UK3CB_G_Gloves_Tan", "UK3CB_G_Gloves_Green"]];
+_loadoutData set ["facemask", ["UK3CB_G_Tactical_Black_Gloves_Green", "UK3CB_G_Tactical_Black_Gloves_Tan", "UK3CB_G_Tactical_Clear_Gloves_Green", "UK3CB_G_Tactical_Clear_Gloves_Tan", "UK3CB_G_Ballistic_Black_Gloves_Green", "UK3CB_G_Ballistic_Black_Gloves_Tan"]];
 
 _loadoutData set ["items_medical_basic", ["BASIC"] call A3A_fnc_itemset_medicalSupplies];
 _loadoutData set ["items_medical_standard", ["STANDARD"] call A3A_fnc_itemset_medicalSupplies];
