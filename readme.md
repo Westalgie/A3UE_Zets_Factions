@@ -13,6 +13,6 @@ The built version is available at steam workshop https://steamcommunity.com/shar
 - Civilians - Slightely different from 3CB
 
 ## Other
-  - Experimental blacklisting logic that allows to blacklist any item from spawning in loot crates and vehicles
-  - Translated in English, German and Russian
-  - "FPV Drone Crocus" spawnable in loot crates
+- Experimental blacklisting logic that allows to blacklist any item from spawning in loot crates and vehicles
+- Translated in English, German and Russia
+- "FPV Drone Crocus" spawnable in loot crates
