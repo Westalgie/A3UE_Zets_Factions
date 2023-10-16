@@ -64,8 +64,8 @@
 ["vehiclesPolice", ["UK3CB_TKP_B_Hilux_Open", "UK3CB_TKP_B_Hilux_Dshkm", "UK3CB_TKP_B_Lada_Police", "UK3CB_TKP_B_Datsun_Pickup", "UK3CB_TKP_B_Hilux_Closed", "UK3CB_TKP_B_LandRover_Open", "UK3CB_TKP_B_LandRover_Closed"]] call _fnc_saveToTemplate;
 
 ["staticMGs", ["UK3CB_TKA_B_DSHKM", "UK3CB_TKA_B_KORD_high", "UK3CB_TKA_B_M240_High", "UK3CB_ANA_B_PKM_High"]] call _fnc_saveToTemplate;
-["staticAT", ["UK3CB_TKA_B_Kornet"]] call _fnc_saveToTemplate;
-["staticAA", ["UK3CB_TKA_B_Igla_AA_pod", "UK3CB_TKA_B_ZU23"]] call _fnc_saveToTemplate;
+["staticAT", ["UK3CB_TKA_B_Kornet", "RHS_TOW_TriPod_D"]] call _fnc_saveToTemplate;
+["staticAA", ["UK3CB_TKA_B_Igla_AA_pod", "UK3CB_TKA_B_ZU23", "RHS_Stinger_AA_pod_D"]] call _fnc_saveToTemplate;
 ["staticMortars", ["UK3CB_TKA_B_2b14_82mm"]] call _fnc_saveToTemplate;
 ["staticHowitzers", ["UK3CB_TKA_B_D30"]] call _fnc_saveToTemplate;
 
@@ -303,6 +303,7 @@ _eliteLoadoutData set ["binoculars", ["rhsusf_bino_lerca_1200_black"]];
 _eliteLoadoutData set ["antiInfantryGrenades", ["rhs_mag_m67", "rhs_mag_an_m14_th3", "rhs_grenade_m15_mag"]];
 _eliteLoadoutData set ["lightATLaunchers", ["rhs_weap_M136", "rhs_weap_M136_hp"]];
 _eliteLoadoutData set ["lightHELaunchers", ["rhs_weap_M136_hedp"]];
+_eliteLoadoutData set ["AALaunchers", ["rhs_weap_fim92"]];
 _eliteLoadoutData set ["ATLaunchers", [
 ["rhs_weap_maaws", "", "", "rhs_optic_maaws", ["rhs_mag_maaws_HEAT", "rhs_mag_maaws_HEAT", "rhs_mag_maaws_HEAT"], [], ""],
 ["rhs_weap_maaws", "", "", "rhs_optic_maaws", ["rhs_mag_maaws_HEAT", "rhs_mag_maaws_HEDP", "rhs_mag_maaws_HEDP"], [], ""]
@@ -373,7 +374,7 @@ _militaryLoadoutData set ["antiInfantryGrenades", ["rhs_mag_rgd5", "rhs_mag_f1",
 _militaryLoadoutData set ["sniUniforms", ["UK3CB_TKA_O_U_CombatUniform_01_ADPM", "UK3CB_TKA_O_U_CombatUniform_02_ADPM", "UK3CB_TKA_O_U_CombatUniform_03_ADPM"]];
 _militaryLoadoutData set ["sniHats", ["UK3CB_H_Shemag_tan"]];
 _militaryLoadoutData set ["slHats", ["UK3CB_TKA_O_H_6b27m_ADPM", "UK3CB_TKA_O_H_6b27m_ESS_ADPM"]];
-
+_militaryLoadoutData set ["AALaunchers", ["rhs_weap_fim92", "rhs_weap_igla"]];
 _militaryLoadoutData set ["lightHELaunchers", [
 ["rhs_weap_rpg7", "", "", "rhs_acc_pgo7v2", ["rhs_rpg7_OG7V_mag", "rhs_rpg7_OG7V_mag", "rhs_rpg7_PG7V_mag"], [], ""]
 ]];
@@ -462,7 +463,7 @@ _militaryLoadoutData set ["sidearms", ["rhsusf_weap_m9"]];
 private _policeLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
 _policeLoadoutData set ["uniforms", ["UK3CB_TKP_B_U_Officer_TAN", "UK3CB_TKP_O_U_CombatUniform_Blk", "UK3CB_TKP_O_U_QRF_CombatUniform_Blk", "UK3CB_TKP_O_U_Officer_Blk"]];
 _policeLoadoutData set ["vests", ["UK3CB_TKP_B_V_TacVest_Blk", "UK3CB_TKP_B_V_GA_LITE_BLK"]];
-_policeLoadoutData set ["helmets", ["UK3CB_TKP_B_H_Patrolcap_TAN", "UK3CB_TKP_O_H_Beret"]];
+_policeLoadoutData set ["helmets", ["UK3CB_TKP_B_H_Patrolcap_TAN", "UK3CB_TKA_B_H_Beret"]];
 _policeLoadoutData set ["slHats", ["UK3CB_TKP_B_H_Patrolcap_Off_TAN"]];
 
 _policeLoadoutData set ["carbines", [
@@ -488,7 +489,7 @@ _militiaLoadoutData set ["atBackpacks", ["rhs_rpg_6b2"]];
 _militiaLoadoutData set ["helmets", ["UK3CB_TKM_I_H_Turban_03_1", "UK3CB_TKM_I_H_Turban_04_1", "UK3CB_TKM_I_H_Turban_01_1", "UK3CB_TKM_I_H_Turban_02_1"]];
 _militiaLoadoutData set ["slHats", ["UK3CB_TKM_I_H_Turban_05_1"]];
 _militiaLoadoutData set ["sniUniforms", ["UK3CB_TKM_B_U_01", "UK3CB_TKM_B_U_01_B", "UK3CB_TKM_B_U_01_C", "UK3CB_TKM_B_U_06", "UK3CB_TKM_B_U_06_B", "UK3CB_TKM_B_U_06_C", "UK3CB_MEE_O_U_01", "UK3CB_MEE_O_U_01_B", "UK3CB_MEE_O_U_01_C", "UK3CB_MEE_O_U_01_D"]];
-
+_militiaLoadoutData set ["AALaunchers", ["rhs_weap_igla"]];
 _militaryLoadoutData set ["lightHELaunchers", [
 ["rhs_weap_rpg7", "", "", "rhs_acc_pgo7v2", ["rhs_rpg7_OG7V_mag", "rhs_rpg7_OG7V_mag", "rhs_rpg7_PG7V_mag"], [], ""]
 ]];

@@ -33,7 +33,7 @@
 
 ["vehiclesLightTanks",  ["UK3CB_CW_SOV_O_LATE_T55", "UK3CB_CW_SOV_O_LATE_T80", "UK3CB_CW_SOV_O_LATE_T72A"]] call _fnc_saveToTemplate;
 ["vehiclesTanks", ["UK3CB_CW_SOV_O_LATE_T72B", "UK3CB_CW_SOV_O_LATE_T72BM", "UK3CB_CW_SOV_O_LATE_T72BB", "UK3CB_CW_SOV_O_LATE_T80A", "UK3CB_CW_SOV_O_LATE_T80BV", "UK3CB_CW_SOV_O_LATE_T80U", "UK3CB_CW_SOV_O_LATE_T72BC"]] call _fnc_saveToTemplate;
-["vehiclesAA", ["UK3CB_CW_SOV_O_LATE_ZsuTank", "UK3CB_CW_SOV_O_LATE_Ural_Zu23", "UK3CB_CW_SOV_O_LATE_2S6_Tunguska"]] call _fnc_saveToTemplate;
+["vehiclesAA", ["UK3CB_CW_SOV_O_LATE_ZsuTank", "UK3CB_CW_SOV_O_LATE_Ural_Zu23"]] call _fnc_saveToTemplate;
 
 ["vehiclesTransportBoats", ["UK3CB_CCM_O_Small_Boat_Wood", "rhsgref_hidf_rhib"]] call _fnc_saveToTemplate;
 ["vehiclesGunBoats", ["UK3CB_CCM_O_Fishing_Boat_SPG9", "UK3CB_CCM_O_Fishing_Boat_Zu23_front", "UK3CB_CCM_O_Fishing_Boat_Zu23"]] call _fnc_saveToTemplate;
@@ -71,8 +71,8 @@
 ["staticMortars", ["UK3CB_CW_SOV_O_Late_2b14_82mm"]] call _fnc_saveToTemplate;
 ["staticHowitzers", ["UK3CB_CW_SOV_O_Late_D30"]] call _fnc_saveToTemplate;
 
-["vehicleRadar", ""] call _fnc_saveToTemplate;
-["vehicleSam", ""] call _fnc_saveToTemplate;
+["vehicleRadar", "rhs_p37_turret_vpvo"] call _fnc_saveToTemplate;
+["vehicleSam", "UK3CB_CW_SOV_O_LATE_2S6M_Tunguska"] call _fnc_saveToTemplate;
 
 ["howitzerMagazineHE", "rhs_mag_3of56_10"] call _fnc_saveToTemplate;
 
