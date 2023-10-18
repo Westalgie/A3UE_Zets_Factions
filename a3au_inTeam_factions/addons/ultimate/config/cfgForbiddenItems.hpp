@@ -15,4 +15,5 @@ class forbiddenItems
     // #include "cfgFInTeamRDS.hpp"
     #include "cfgFInTeamRHS.hpp"
     #include "cfgFInTeam3CB.hpp"
+    #include "cfgFInTeamTFR"
 };
