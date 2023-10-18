@@ -580,6 +580,10 @@ class uk3cb_1rnd_riflegrenade_mas_base: forbidden_limited_base {};
 class uk3cb_1rnd_riflegrenade_base: forbidden_limited_base {};
 class uk3cb_1rnd_riflegrenade_m31_base: forbidden_limited_base {};
 class uk3cb_1rnd_riflegrenade_energa_base: forbidden_limited_base {};
+class UK3CB_SVD_10rnd_762x54_GT: forbidden_limited_base {};
+class UK3CB_SVD_10rnd_762x54_RT: forbidden_limited_base {};
+class UK3CB_SVD_10rnd_762x54_YT: forbidden_limited_base {};
+class UK3CB_SVD_10rnd_762x54_WT: forbidden_limited_base {};
 
 //launchers
 class UK3CB_Blowpipe: forbidden_limited_base {};
