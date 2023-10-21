@@ -267,7 +267,7 @@ if (_crateAttachmentTypeMax != 0) then {
 //Backpacks Loot
 if (_crateBackpackTypeMax != 0) then {
 	for "_i" from 0 to floor random _crateBackpackTypeMax do {
-		_available = (lootBackpack - _unlocks - itemCargo _crate);
+		_available = (lootBackpack - _unlocks - itemCargo _crate - A3U_forbiddenItems);
 		_loot = selectRandom _available;
 		if (isNil "_loot") then {
             Debug("No Backpacks Left in Loot List");
@@ -282,7 +282,7 @@ if (_crateBackpackTypeMax != 0) then {
 //Helmets Loot
 if (_crateHelmetTypeMax != 0) then {
 	for "_i" from 0 to floor random _crateHelmetTypeMax do {
-		_available = (lootHelmet - _unlocks - itemCargo _crate);
+		_available = (lootHelmet - _unlocks - itemCargo _crate - A3U_forbiddenItems);
 		_loot = selectRandom _available;
 		if (isNil "_loot") then {
             Debug("No Helmets Left in Loot List");
@@ -297,7 +297,7 @@ if (_crateHelmetTypeMax != 0) then {
 //Vests Loot
 if (_crateVestTypeMax != 0) then {
 	for "_i" from 0 to floor random _crateVestTypeMax do {
-		_available = (lootVest - _unlocks - itemCargo _crate);
+		_available = (lootVest - _unlocks - itemCargo _crate - A3U_forbiddenItems);
 		_loot = selectRandom _available;
 		if (isNil "_loot") then {
             Debug("No Vests Left in Loot List");
@@ -312,7 +312,7 @@ if (_crateVestTypeMax != 0) then {
 //Device Loot
 if (_crateDeviceTypeMax != 0) then {
 	for "_i" from 0 to floor random _crateDeviceTypeMax do {
-		_available = (lootDevice - _unlocks - itemCargo _crate);
+		_available = (lootDevice - _unlocks - itemCargo _crate - A3U_forbiddenItems);
 		_loot = selectRandom _available;
 		if (isNil "_loot") then {
             Debug("No Device Bags Left in Loot List");
