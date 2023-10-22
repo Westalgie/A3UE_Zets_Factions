@@ -16,6 +16,7 @@ class CfgPatches {
 
 class A3A {
     #include "Templates.hpp"
+	#include "CfgLogistics.hpp"
 };
 
 class cfgMarkerClasses

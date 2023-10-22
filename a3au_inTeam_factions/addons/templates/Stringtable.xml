@@ -48,4 +48,9 @@
         <Russian>Такистанские гражданские</Russian>
         <German>Zivilisten aus Takistan</German>
     </Key>
+    <Key ID="STR_InTeam_buyvehdialog_retranslator">
+        <Original>Retranslator</Original>
+        <English>Retranslator</English>
+        <Russian>Ретранслятор</Russian>
+    </Key>
 </Project>

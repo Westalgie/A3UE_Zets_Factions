@@ -11,6 +11,14 @@ class CfgFunctions
 				file = QPATHTOFOLDER(functions\Ammunitions\fn_loot.sqf);
 			};
 		};
+
+		class init
+		{
+			class initUtilityItems {
+				file = QPATHTOFOLDER(functions\init\fn_initUtilityItems.sqf);
+			};
+		};
+
 		class Inventory
 		{
 			file = QPATHTOFOLDER(functions\Inventory);

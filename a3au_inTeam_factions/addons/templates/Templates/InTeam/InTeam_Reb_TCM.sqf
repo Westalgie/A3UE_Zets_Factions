@@ -10,6 +10,8 @@ private _hasLawsOfWar = "orange" in A3A_enabledDLC;
 ["flagTexture", "x\a3au_inTeam_factions\addons\templates\data\InTeam_flag_TCM_co.paa"] call _fnc_saveToTemplate;
 ["flagMarkerType", "InTeam_flag_TCM"] call _fnc_saveToTemplate;
 
+["vehicleRetranslator", ["FPV_Retranslator", 20000]] call _fnc_saveToTemplate;
+
 ["vehiclesBasic", ["UK3CB_TKC_I_YAVA"]] call _fnc_saveToTemplate;
 ["vehiclesLightUnarmed", ["UK3CB_TKM_I_LR_Closed"]] call _fnc_saveToTemplate;
 ["vehiclesLightArmed", ["UK3CB_TKM_I_Hilux_Dshkm"]] call _fnc_saveToTemplate;
