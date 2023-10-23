@@ -114,6 +114,10 @@ _loadoutData set ["ATLaunchers", []];
 _loadoutData set ["AALaunchers", ["rhs_weap_igla"]];
 _loadoutData set ["sidearms", []];
 
+if (A3A_hasTFARBeta) then {
+    _loadoutData set ["slBackpacks", ["UK3CB_LSM_O_B_CARRYALL_RADIO_KHK", "UK3CB_LSM_O_B_CARRYALL_RADIO_OLI", "UK3CB_LSM_O_B_CARRYALL_RADIO_PARTIZAN"]];
+}
+
 _loadoutData set ["ATMines", ["rhs_mag_mine_ptm1", "rhs_mine_tm62m_mag"]];
 _loadoutData set ["APMines", ["rhs_mine_ozm72_a_mag", "rhs_mine_ozm72_b_mag", "rhs_mine_ozm72_c_mag", "rhs_mag_mine_pfm1", "rhs_mine_pmn2_mag"]];
 _loadoutData set ["lightExplosives", ["rhs_ec200_mag"]];
@@ -555,6 +559,10 @@ private _squadLeaderTemplate = {
     [selectRandomWeighted [[], 2, "glasses", 0.75, "goggles", 0.5]] call _fnc_setFacewear;
     [["SLvests", "vests"] call _fnc_fallback] call _fnc_setVest;
     ["uniforms"] call _fnc_setUniform;
+
+    if (A3A_hasTFARBeta) then {
+        ["slBackpacks"] call _fnc_setBackpack;
+    }
 
     [["slRifles", "rifles"] call _fnc_fallback] call _fnc_setPrimary;
     ["primary", 6] call _fnc_addMagazines;
