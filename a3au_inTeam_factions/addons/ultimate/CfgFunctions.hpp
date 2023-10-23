@@ -24,5 +24,13 @@ class CfgFunctions
 			file = QPATHTOFOLDER(functions\Inventory);
 			class compatibleMagazinesWithExceptions {};
 		};
+
+		class REINF
+		{
+			class reDress
+			{
+				file = QPATHTOFOLDER(functions\REINF\fn_reDress.sqf);
+			};
+		};
 	};
 };
