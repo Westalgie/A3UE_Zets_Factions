@@ -219,7 +219,7 @@ _sfLoadoutData set ["sniUniforms", ["UK3CB_TKA_B_U_CombatUniform_Ghillie_DES_MAR
 
 if (A3A_hasTFARBeta) then {
     _sfLoadoutData set ["slBackpacks", ["UK3CB_ION_O_B_RadioBag_BRN", "UK3CB_ION_O_B_RadioBag_DES"]];
-}
+};
 
 _sfLoadoutData set ["NVGs", ["UK3CB_ANPVS7"]];
 _sfLoadoutData set ["binoculars", ["rhsusf_bino_lerca_1200_black"]];
@@ -304,7 +304,7 @@ _eliteLoadoutData set ["sniUniforms", ["UK3CB_TKA_B_U_CombatUniform_Ghillie_DES_
 
 if (A3A_hasTFARBeta) then {
     _eliteLoadoutData set ["slBackpacks", ["TFAR_rt1523g_big_rhs"]];
-}
+};
 
 _eliteLoadoutData set ["NVGs", ["UK3CB_ANPVS7"]];
 _eliteLoadoutData set ["binoculars", ["rhsusf_bino_lerca_1200_black"]];
@@ -385,7 +385,7 @@ _militaryLoadoutData set ["slHats", ["UK3CB_TKA_O_H_6b27m_ADPM", "UK3CB_TKA_O_H_
 
 if (A3A_hasTFARBeta) then {
     _militaryLoadoutData set ["slBackpacks", ["TFAR_rt1523g_big_rhs"]];
-}
+};
 
 _militaryLoadoutData set ["AALaunchers", ["rhs_weap_fim92", "rhs_weap_igla"]];
 _militaryLoadoutData set ["lightHELaunchers", [
@@ -505,7 +505,7 @@ _militiaLoadoutData set ["sniUniforms", ["UK3CB_TKM_B_U_01", "UK3CB_TKM_B_U_01_B
 
 if (A3A_hasTFARBeta) then {
     _militiaLoadoutData set ["slBackpacks", ["UK3CB_B_I_Alice_Radio_Backpack", "UK3CB_B_B_Radio_Backpack", "UK3CB_B_B_Radio_Backpack", "UK3CB_B_B_Radio_Backpack"]];
-}
+};
 
 
 _militiaLoadoutData set ["AALaunchers", ["rhs_weap_igla"]];
@@ -584,7 +584,7 @@ private _squadLeaderTemplate = {
     ["uniforms"] call _fnc_setUniform;
     if (A3A_hasTFARBeta) then {
         ["slBackpacks"] call _fnc_setBackpack;
-    }
+    };
 
     [["slRifles", "rifles"] call _fnc_fallback] call _fnc_setPrimary;
     ["primary", 6] call _fnc_addMagazines;

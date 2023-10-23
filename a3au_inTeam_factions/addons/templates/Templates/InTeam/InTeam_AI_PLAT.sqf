@@ -116,7 +116,7 @@ _loadoutData set ["sidearms", []];
 
 if (A3A_hasTFARBeta) then {
     _loadoutData set ["slBackpacks", ["UK3CB_LSM_O_B_CARRYALL_RADIO_KHK", "UK3CB_LSM_O_B_CARRYALL_RADIO_OLI", "UK3CB_LSM_O_B_CARRYALL_RADIO_PARTIZAN"]];
-}
+};
 
 _loadoutData set ["ATMines", ["rhs_mag_mine_ptm1", "rhs_mine_tm62m_mag"]];
 _loadoutData set ["APMines", ["rhs_mine_ozm72_a_mag", "rhs_mine_ozm72_b_mag", "rhs_mine_ozm72_c_mag", "rhs_mag_mine_pfm1", "rhs_mine_pmn2_mag"]];
@@ -562,7 +562,7 @@ private _squadLeaderTemplate = {
 
     if (A3A_hasTFARBeta) then {
         ["slBackpacks"] call _fnc_setBackpack;
-    }
+    };
 
     [["slRifles", "rifles"] call _fnc_fallback] call _fnc_setPrimary;
     ["primary", 6] call _fnc_addMagazines;
