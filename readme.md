@@ -2,6 +2,8 @@
 This is an extension made for Arma 3 Antistasi Ultimate mod.
 The built version is available at steam workshop https://steamcommunity.com/sharedfiles/filedetails/?id=3046592972 and includes a bikey.
 
+It was made using A3UExtender (https://github.com/Westalgie/A3UExtender) as an example.
+
 # Features
 
 ## Factions
