@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="A3UE-Zets-factions">
+    <Key ID="STR_Zets_NGTR_name">
+        <Original>NGTR</Original>
+        <English>NGTR</English>
+        <Russian>НПРТ</Russian>
+        <German>NRRT</German>
+    </Key>
+    <Key ID="STR_Zets_NGTR_desription">
+        <Original>National Government of Takistan Republic. \nUnofficially supported by US government islamist radicals and fundmaentalists who recently seized power in the country.</Original>
+        <English>National Government of Takistan Republic. \nUnofficially supported by US government islamist radicals and fundmaentalists who recently seized power in the country.</English>
+        <Russian>Национально Правительство Республики Такистан. \nНеофициально поддерживаемые американским правителсьтвом исламские радикалисты и фундаменталисты, недавно захватившие власть в стране.</Russian>
+        <German>Nationale Regierung der Republik Takistan. \nInoffiziell unterstützt von islamistischen Radikalen und Fundamentalisten der US-Regierung, die kürzlich die Macht im Land übernommen haben.</German>
+    </Key>
+    <Key ID="STR_Zets_PLAT_name">
+        <Original>PLAT</Original>
+        <English>PLAT</English>
+        <Russian>НОАТ</Russian>
+        <German>VBAT</German>
+    </Key>
+    <Key ID="STR_Zets_PLAT_description">
+        <Original>People's Liberation Army of Takistan. \nOfficially recognized and supported by Russian government this young republic will try to seize dominance in the region.</Original>
+        <English>People's Liberation Army of Takistan. \nOfficially recognized and supported by Russian government this young republic will try to seize dominance in the region.</English>
+        <Russian>Народно-освободительная армия Такистана. \nОфициально признанная и поддержимаемая российским правительством молодая республика, которая попытается установить контроль в регионе.</Russian>
+        <German>Volksbefreiungsarmee von Takistan. \nDiese junge Republik, die von der russischen Regierung offiziell anerkannt und unterstützt wird, wird versuchen, die Vorherrschaft in der Region an sich zu reißen.</German>
+    </Key>
+    <Key ID="STR_Zets_TCM_name">
+        <Original>TCM</Original>
+        <English>TCM</English>
+        <Russian>КОТ</Russian>
+        <German>KMT</German>
+    </Key>
+    <Key ID="STR_Zets_TCM_description">
+        <Original>Takistan communist militia. \nWorkers of the world, unite!</Original>
+        <English>Takistan communist militia. \nWorkers of the world, unite!</English>
+        <Russian>Коммунистическое ополчение Такистана. \nПролетарии всех стран, соединяйтесь!</Russian>
+        <German>Kommunistische Miliz von Takistan. \nProletarier aller Länder, vereinigt Euch!</German>
+    </Key>
+    <Key ID="STR_Zets_Civ_name">
+        <Original>Takistan</Original>
+        <English>Takistan</English>
+        <Russian>Такистан</Russian>
+        <German>Takistan</German>
+    </Key>
+    <Key ID="STR_Zets_Civ_description">
+        <Original>Takistan civilians</Original>
+        <English>Takistan civilians</English>
+        <Russian>Такистанские гражданские</Russian>
+        <German>Zivilisten aus Takistan</German>
+    </Key>
+</Project>
